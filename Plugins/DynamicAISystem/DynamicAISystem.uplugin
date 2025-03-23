@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Dynamic AI System",
+	"Description": "Tool that will bring life to your NPC, making the world more alive than ever.",
+	"Category": "AI",
+	"CreatedBy": "https://b23.tv/pTrWgqu",
+	"CreatedByURL": "https://ue4dcs.com/AIOptimizer",
+	"DocsURL": "https://ue4dcs.com/DAS",
+	"MarketplaceURL": "https://b23.tv/pTrWgqu",
+	"SupportURL": "https://ue4dcs.com/contact",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DynamicAISystem",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "DynamicAISystemEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			]
+		}
+	]
+}
