@@ -17,6 +17,11 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "DynamicAISystem",
+			"Enabled": true,
+			"MarketplaceURL": "https://b23.tv/pTrWgqu"
 		}
 	]
 }
